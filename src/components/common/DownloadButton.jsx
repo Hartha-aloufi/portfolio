@@ -9,7 +9,7 @@ function DownloadButton() {
       onClick={generatePDF}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="fixed right-6 bottom-6 z-40 group flex items-center gap-2 
+      className="print:hidden fixed right-6 bottom-6 z-40 group flex items-center gap-2 
         transition-all duration-300 outline-none"
       aria-label="Download PDF version"
     >
